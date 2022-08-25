@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/joenchua-portfolio/static/css/main.d0eb256d.css",
+    "main.js": "/joenchua-portfolio/static/js/main.d237d74c.js",
+    "static/media/final.png": "/joenchua-portfolio/static/media/final.9f8ab33a805077ec7a99.png",
+    "static/media/works-sutrix.png": "/joenchua-portfolio/static/media/works-sutrix.09fe3debda3ac18779e2.png",
+    "static/media/works-pepper.png": "/joenchua-portfolio/static/media/works-pepper.afc67c64ae97d912efce.png",
+    "static/media/works-smuscape.png": "/joenchua-portfolio/static/media/works-smuscape.70bd542a816f6c0059d3.png",
+    "static/media/icon.png": "/joenchua-portfolio/static/media/icon.516faf7483ed47b61778.png",
+    "static/media/works-dicapella.png": "/joenchua-portfolio/static/media/works-dicapella.b5133618841c471aca78.png",
+    "static/media/feed1-3.png": "/joenchua-portfolio/static/media/feed1-3.f2d0f76b9f8765e8831c.png",
+    "static/media/works-webull.png": "/joenchua-portfolio/static/media/works-webull.76c8196fc8e16788aa5d.png",
+    "static/media/illustration2.png": "/joenchua-portfolio/static/media/illustration2.ef86352d16c11837d525.png",
+    "static/media/telegram.png": "/joenchua-portfolio/static/media/telegram.6d4fb402a1836d62584b.png",
+    "static/media/email.png": "/joenchua-portfolio/static/media/email.67bda94140af311d041f.png",
+    "static/media/linkedin.png": "/joenchua-portfolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/joenchua-portfolio/index.html",
+    "static/media/linkedin-in-brands.svg": "/joenchua-portfolio/static/media/linkedin-in-brands.272682bbde510681abc060a67302498f.svg",
+    "main.d0eb256d.css.map": "/joenchua-portfolio/static/css/main.d0eb256d.css.map",
+    "main.d237d74c.js.map": "/joenchua-portfolio/static/js/main.d237d74c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0eb256d.css",
+    "static/js/main.d237d74c.js"
+  ]
+}
