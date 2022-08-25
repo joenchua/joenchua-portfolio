@@ -1,0 +1,57 @@
+.home{
+  margin: 8% 0;
+  .hero{
+    padding: 1rem 0;
+
+    .title{
+      font-size: 5rem;
+      font-weight: bold;
+      padding: 20px 0;
+    }
+
+    .desc{
+      font-size: 50px;
+      padding-bottom: 20px;
+
+      // span{
+      //   position: relative;
+        
+      //   &:before{
+      //     content: "";
+      //     position: absolute;
+      //     display: inline-block;
+      //     left: 0;
+      //     bottom: 0;
+      //     z-index: -1;
+      //     width: 100%;
+      //     height: 50%;
+      //     background-color: transparent;
+      //     transition: background 0.3s ease;
+      //   }
+        
+      //   &:hover{
+      //     color: black;
+      //     // cursor: pointer;
+          
+      //     &:before{
+      //       background-color: #ffd1dc;
+      //     }
+      //   }
+      // }
+    }
+
+    .text{
+      font-size: 20px;
+    }
+  }
+
+  img{
+    border-radius: 100%;
+    box-shadow: 0rem 1.25rem 1.6875rem 0rem rgba(0, 0, 0, 0.05);
+  }
+
+  .contact-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+}

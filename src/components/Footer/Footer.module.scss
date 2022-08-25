@@ -1,0 +1,17 @@
+.contact{
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+
+  .title{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .logos{
+    > div{
+      text-align: center;
+    }
+  }
+}
