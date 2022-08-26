@@ -40,7 +40,7 @@ const Home = () => {
                   {/* I like to <span>draw</span>, <span>design</span> and <span>build</span> things. */}
                 </div>
                 <div className={styles.text}>
-                  I am an aspiring product manager based in Singapore with experience in delivering end-to-end UI/UX software products.
+                  I am an aspiring frontend developer and PM based in Singapore with experience in delivering end-to-end UI/UX software products.
                 </div>
                 <Button className={styles['contact-button']} variant="outline-dark"><a href="mailto:chuajoenx@gmail.com">Contact Me</a></Button>
               </div>
