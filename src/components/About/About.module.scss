@@ -1,0 +1,23 @@
+.about{
+  padding: 4rem;
+  margin: 4rem 0;
+
+  .title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .projects{
+    &-title{
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    &-role{
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+  }
+}

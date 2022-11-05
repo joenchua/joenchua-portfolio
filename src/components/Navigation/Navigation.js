@@ -1,36 +1,31 @@
-import React from "react";
-// import { NavLink } from "react-router-dom";
-// import Navbar from "react-bootstrap/Navbar";
-// import Nav from "react-bootstrap/Nav";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
-import { nav } from "bootstrap";
+// import { NavLink } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 import { Link as Newlink } from "react-scroll";
-
 import styles from "./Navigation.module.scss";
 
 const Navi = () => {
+  const [isActive, setActive] = useState(null);
+
   return (
     <>
       <div className={styles.navbar}>
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        <Navbar bg="dark" variant="dark" expand="lg">
           <Container fluid>
-            <a className="navbar-brand" href="/">
-              joenchua
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-
-            <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul className="navbar-nav px-5">
+            <Navbar.Brand href="#home">joenchua</Navbar.Brand>
+            <Navbar.Toggle>
+              <div onClick = {()=>setActive(!isActive)} className={`${isActive ? 'hamburger-menu hamburger-menu-active' : 'hamburger-menu'}`}>
+                <div className='hamburger-menu-wrapper'>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </Navbar.Toggle>
+            <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+              <Nav className="mr-auto">
                 <Newlink
                   type="button"
                   className="text-decoration-none"
@@ -43,7 +38,7 @@ const Navi = () => {
                   duration={500}
                   delay={0}
                 >
-                  <li className="nav-item mx-4">Home</li>
+                  <li className="nav-item mx-4 my-2-md py-2">Home</li>
                 </Newlink>
 
                 <Newlink
@@ -58,9 +53,8 @@ const Navi = () => {
                   duration={500}
                   delay={0}
                 >
-                  <li className="nav-item mx-4">Works</li>
+                  <li className="nav-item mx-4 my-2-md py-2">Works</li>
                 </Newlink>
-
                 <Newlink
                   type="button"
                   className="text-decoration-none"
@@ -73,12 +67,12 @@ const Navi = () => {
                   duration={500}
                   delay={0}
                 >
-                  <li className="nav-item mx-4">Contact</li>
+                  <li className="nav-item mx-4 my-2-md py-2">Contact</li>
                 </Newlink>
-              </ul>
-            </div>
+              </Nav>
+            </Navbar.Collapse>
           </Container>
-        </nav>
+        </Navbar>
       </div>
     </>
   )

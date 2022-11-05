@@ -28,6 +28,76 @@ body {
   color: white;
 }
 
+
+.navbar{
+  margin-bottom: 1rem; 
+
+  &-collapse{
+    text-align: right;
+  }
+
+  &-toggler{
+    border: none !important;
+    box-shadow: none !important;
+
+    &:active,
+    &:focus{
+      border: none !important;
+    }
+  
+    &-icon{
+      display: none !important;
+    }
+  }
+
+  .hamburger-menu{
+    position: relative;
+    display: block;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    z-index: 99;
+  
+    &.hamburger-menu-active{
+      .hamburger-menu-wrapper{
+        span{
+          &:nth-child(1){
+            transform: translateY(13px) rotate(-45deg);
+          }
+  
+          &:nth-child(2){
+            opacity: 0;
+          }
+  
+          &:nth-child(3){
+            transform: translateY(-13px) rotate(45deg);
+          }
+        }
+      }
+    }
+  
+    &-wrapper{
+      height: 200%;
+      box-sizing: border-box;
+      background: transparent;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 24px 0;
+      transform: scale(0.5);
+      transform-origin: top;
+  
+      span{
+        transition: opacity 0.3s, transform 0.3s, background-color 0.3s;
+        box-sizing: border-box;
+        height: 3px;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
 .btn-outline-dark{
   color: var(--white);
   border-color: var(--white);
@@ -40,4 +110,23 @@ body {
   &:hover{
     border-color: var(--white);
   }
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff !important;
+  width: 30px !important;
+  height: 5px !important;
+  border-radius: 5px !important;
+  &-active{
+    background-color: #fff !important;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+  color: white !important;
+}
+
+.swiper-slide-active > div{
+  margin: 0 5rem;
 }
