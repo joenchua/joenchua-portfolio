@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./About.module.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
@@ -19,7 +19,7 @@ const About = () => {
           <Row>
             <Col>
               <div className={styles.title}>
-                About
+                Projects
               </div>
             </Col>
           </Row>

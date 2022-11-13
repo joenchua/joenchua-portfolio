@@ -33,7 +33,6 @@ const Works = () => {
           <Row>
             <Col className="mx-auto">
               <div className={styles.works}>
-                {/* {images} */}
                 <Swiper
                   spaceBetween={0}
                   pagination={true} 
@@ -43,7 +42,6 @@ const Works = () => {
                   zoom
                 >
                   {images}
-                  {/* <SwiperSlide>{images}</SwiperSlide> */}
                 </Swiper>
               </div>
             </Col>
